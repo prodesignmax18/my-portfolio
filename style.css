@@ -192,3 +192,31 @@ section >h3,#what{
     font-size: 30px;
     font-weight: 700;
 }
+.resume-container{
+    display: flex;
+    gap: 65px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-description{
+    color: #757575;
+    font-size: 16px;
+
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
