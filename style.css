@@ -151,8 +151,9 @@ main{
     padding: 10px 150px;    
 }
 
-section >h3,#what{
+section,h3,#what{
     margin-bottom: 10px;
+  
 
 }
 
@@ -219,4 +220,11 @@ section >h3,#what{
     margin-top: 50px;
 }
 
+/* footer style */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 130px;
+}
 
