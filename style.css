@@ -23,11 +23,13 @@ body{
     font-size: 35px;
     font-weight: 700;
     
+    
 }
 .section-description{
     color: #757575;
     text-align: center;
     font-size: 18px;
+    margin-top: 10px;
 }
 
 
@@ -100,7 +102,8 @@ width: 500px;
     color: #474747;
     margin-bottom: 0 ;
 }
-.banner-titl{
+.banner-title{
+
     font-size: 85px;
     color: #181818;
     margin-top: 5px;
@@ -118,9 +121,9 @@ main{
     margin: 0 auto;
 }
 /* .main-section{
-    margin: 130px;
+    margin-top: 130px;
+    
 } */
-
 
 
 
@@ -130,11 +133,12 @@ main{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin:130px 0px ;
+    margin:130px 0px;
 }
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
     
     
 }
@@ -144,8 +148,12 @@ main{
 
 }
 #what-i-do-description{
-    padding: 30px 150px;
-    
+    padding: 10px 150px;    
+}
+
+section >h3,#what{
+    margin-bottom: 10px;
+
 }
 
 .skill-container{
@@ -159,7 +167,7 @@ main{
     
     width: 200px;
     height: 240px;
-    padding: 30px;
+    padding: 30px 15px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -172,3 +180,15 @@ main{
     
 
 } 
+
+/* <!-- Resume section --> */
+
+
+#my-resume{
+    padding: 80px;
+}
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
